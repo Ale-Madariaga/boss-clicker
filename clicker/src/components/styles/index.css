@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+.img-boss {
+    width: 30%;
+    border-radius: 9999px;
+    margin-top: 20px;
+}
+
+.text-score {
+    color: black;
+    font-size: large;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.power-up {
+    width: 50%;
+    justify-content: flex-start;
+}
+
+.score {
+    width: 50%;
+}
+
+.boss-life {
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: 30px, 30px;
+    padding: 50px;
+}
